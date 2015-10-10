@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/com.yaowen.zidingyishuxing"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:test="http://schemas.android.com/apk/com.yaowen.zidingyishuxing2"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".MainActivity">
-    <com.yaowen.zidingyishuxing.MyTextView
-        android:id="@+id/mytextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:TextAttrs="100"
-        app:MyText="Hello World! Welcome to My blog!"
-        />
-</LinearLayout>
+
+    <com.yaowen.zidingyishuxing2.ViewSubclass
+        android:layout_width="200dip"
+        android:layout_height="200dip"
+        android:layout_centerInParent="true"
+        test:testTextSize="10dip"
+        test:textColor="#ff0000" />
+
+</RelativeLayout>

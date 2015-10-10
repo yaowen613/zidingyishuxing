@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="test">
-        <attr name="MyText" format="string" />
-        <attr name="MyTextAttr" format="integer" />
+    <declare-styleable name="TestAttr">
+        <attr name="testTextSize" format="dimension"/>
+        <attr name="testColor" format="color"/>
     </declare-styleable>
 </resources>
